@@ -1,0 +1,7 @@
+Base = "wheat"
+Important = "orange"
+AlertInfo = "yellow"
+AlertWarn = "goldenrod"
+AlertError = "red"
+Annotation = "gray"
+Guidance = "tan"

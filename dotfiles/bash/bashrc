@@ -1,0 +1,37 @@
+#
+# ~/.bashrc
+#
+
+# Export PATHs and environment variables
+export PATH="$HOME/Dev/flutter/bin:$PATH"
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+
+
+# If not running interactively, don't do anything
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias gs='git status'
+alias gl='git log --oneline -5'
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# --- Oh My Posh prompt (only if installed and the theme exists) ---
+if command -v oh-my-posh >/dev/null 2>&1 && [[ -f "$HOME/.config/kitty/tldr.omp.json" ]]; then
+    eval "$(oh-my-posh init bash --config "$HOME/.config/kitty/tldr.omp.json")"
+fi
+
+# opencode
+export PATH=$HOME/.opencode/bin:$PATH
+
+#venv
+function workon-taskflow() {
+    source "$HOME/Desktop/Practice/.venv/bin/activate"
+}
+
+export __NV_PRIME_RENDER_OFFLOAD=1
+export __GLX_VENDOR_LIBRARY_NAME=nvidia

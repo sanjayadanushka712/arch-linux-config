@@ -1,0 +1,39 @@
+# Packages installed by bootstrap.sh
+# AUR: carapace-bin is installed separately by the script
+
+# terminal + shell
+fzf
+atuin
+zellij
+starship
+zoxide
+direnv
+eza
+ripgrep
+bat
+lazygit
+btop
+
+# modern CLI tools
+yazi
+mise
+just
+television
+dust
+procs
+sd
+broot
+
+# base / build tools
+git
+base-devel
+curl
+wget
+jq
+
+# yazi optional helpers
+fd
+7zip
+poppler
+ttf-font-nerd
+wl-clipboard

@@ -1,0 +1,5 @@
+[Libinput][1267][12423][ELAN1300:00 04F3:3087 Touchpad]
+Enabled=true
+
+[Mouse]
+cursorTheme=WhiteSur-cursors

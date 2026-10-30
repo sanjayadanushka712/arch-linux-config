@@ -1,0 +1,2 @@
+"remove fingerprint ask terminal sudo"
+sudo sed -i '/auth sufficient pam_fprintd.so/d' /etc/pam.d/system-auth

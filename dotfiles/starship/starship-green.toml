@@ -1,0 +1,25 @@
+add_newline = false
+
+format = """$directory$git_branch$character"""
+right_format = ""
+
+[character]
+success_symbol = "[>](bold #7ec87e)"
+error_symbol = "[>](bold #e06c75)"
+vimcmd_symbol = "[>](bold #d8b36a)"
+
+[directory]
+style = "#9cd89c"
+truncation_length = 3
+truncate_to_repo = true
+format = "[$path]($style) "
+read_only = " ro"
+
+[git_branch]
+symbol = ""
+style = "#6fbfb0"
+format = "[$branch]($style) "
+
+[git_status]
+style = "#d8b36a"
+format = "[$all_status]($style)"

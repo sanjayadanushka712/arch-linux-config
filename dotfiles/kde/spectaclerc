@@ -1,0 +1,17 @@
+[Annotations]
+annotationToolType=3
+
+[General]
+ocrLanguages=afr
+
+[ImageSave]
+lastImageSaveAsLocation=
+translatedScreenshotsFolder=Screenshots
+
+[VideoSave]
+translatedScreencastsFolder=Screencasts
+
+[ViewerWindow]
+1920x1080 screen: Height=570
+1920x1080 screen: Width=821
+1920x1080 screen: Window-Maximized=true

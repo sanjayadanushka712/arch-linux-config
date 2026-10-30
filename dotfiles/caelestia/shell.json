@@ -1,0 +1,12 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "showDashboard": true,
+        "showOnHover": true
+    }
+}

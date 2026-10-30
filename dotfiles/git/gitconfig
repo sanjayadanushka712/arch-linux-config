@@ -1,0 +1,15 @@
+[user]
+	email = dsanjaya712@gmail.com
+	name = sanjaya danushka
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+	pager = cat
+[credential "https://github.com"]
+	helper = store --file ~/.git-credentials-neoarch
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

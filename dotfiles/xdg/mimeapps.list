@@ -1,0 +1,20 @@
+[Added Associations]
+application/pdf=com.google.Chrome.desktop;google-chrome-unstable.desktop;todoist.desktop;
+text/plain=dev.zed.Zed.desktop;vim.desktop;nvim.desktop;micro.desktop;
+x-scheme-handler/http=google-chrome-unstable.desktop;com.google.Chrome.desktop;google-chrome.desktop;com.google.Chrome.unstable.desktop;
+x-scheme-handler/https=google-chrome-unstable.desktop;com.google.Chrome.desktop;google-chrome.desktop;com.google.Chrome.unstable.desktop;
+x-scheme-handler/vscode=com.microsoft.VSCodeInsiders.desktop;
+
+[Default Applications]
+application/pdf=com.google.Chrome.desktop;
+text/html=google-chrome-unstable.desktop
+text/plain=dev.zed.Zed.desktop;
+x-scheme-handler/antigravity=antigravity.desktop
+x-scheme-handler/claude=com.anthropic.Claude.desktop
+x-scheme-handler/codex=chatgpt.desktop
+x-scheme-handler/http=google-chrome-unstable.desktop;
+x-scheme-handler/https=google-chrome-unstable.desktop;
+x-scheme-handler/jetbrains=jetbrainsd.desktop
+x-scheme-handler/vscode=com.microsoft.VSCodeInsiders.desktop;
+x-scheme-handler/x-github-client=github-desktop.desktop
+x-scheme-handler/x-github-desktop-auth=github-desktop.desktop

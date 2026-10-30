@@ -1,0 +1,41 @@
+# Hyprland + Caelestia desktop packages (optional, not installed by bootstrap.sh)
+# Install with: sudo pacman -S --needed - < packages/desktop-hypr.txt
+# AUR: caelestia-shell, caelestia-cli, caelestia-firefox-theme (via yay)
+
+hyprland
+uwsm
+foot
+kitty
+fuzzel
+wofi
+cliphist
+grim
+slurp
+hyprpicker
+wl-clipboard
+ydotool
+xdg-desktop-portal-hyprland
+xdg-desktop-portal-gtk
+polkit-gnome
+gnome-keyring
+dunst
+easyeffects
+lsp-plugins
+gammastep
+geoclue
+qt5-wayland
+qt6-wayland
+network-manager-applet
+sddm
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+wireplumber
+gst-plugin-pipewire
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-dejavu
+ttf-jetbrains-mono-nerd

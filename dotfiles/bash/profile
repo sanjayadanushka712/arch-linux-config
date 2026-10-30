@@ -1,0 +1,14 @@
+
+
+# Added by Toolbox App
+export PATH="$PATH:$HOME/.local/share/JetBrains/Toolbox/scripts"
+
+# Flutter SDK
+export PATH="$HOME/Dev/flutter/bin:$PATH"
+export CHROME_EXECUTABLE="/usr/bin/google-chrome-stable"
+
+
+
+
+# Added by jcode installer
+export PATH="$HOME/.local/bin:$PATH"

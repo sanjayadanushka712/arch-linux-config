@@ -1,0 +1,37 @@
+# KDE Plasma desktop packages (optional, not installed by bootstrap.sh)
+# Install with: sudo pacman -S --needed - < packages/desktop-kde.txt
+# AUR: darkly-bin
+
+plasma-meta
+sddm
+sddm-kcm
+dolphin
+konsole
+ark
+kdialog
+frameworkintegration
+papirus-icon-theme
+papirus-folders
+adw-gtk-theme
+qt5-wayland
+qt6-wayland
+network-manager-applet
+power-profiles-daemon
+xdg-desktop-portal-gtk
+xdg-user-dirs
+xdg-utils
+bluez
+bluez-utils
+pipewire
+pipewire-alsa
+pipewire-audio
+pipewire-jack
+pipewire-pulse
+wireplumber
+gst-plugin-pipewire
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-dejavu
+ttf-jetbrains-mono-nerd
+gammastep
